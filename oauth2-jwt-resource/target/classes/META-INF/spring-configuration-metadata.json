@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "security",
+      "type": "com.oauth.jwt.ds.config.SecurityProperties",
+      "sourceType": "com.oauth.jwt.ds.config.SecurityProperties"
+    },
+    {
+      "name": "security.jwt",
+      "type": "com.oauth.jwt.ds.config.SecurityProperties$JwtProperties",
+      "sourceType": "com.oauth.jwt.ds.config.SecurityProperties",
+      "sourceMethod": "getJwt()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
